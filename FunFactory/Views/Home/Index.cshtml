@@ -1,0 +1,47 @@
+﻿@model dynamic
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h1>Guaranteed</h1>
+    <div class="lead">
+        <ul>
+            <li>Best computers</li>
+            <li>Best components</li>
+            <li>Best customer service</li>
+            <li>Best price</li>
+        </ul>
+    </div>
+    <p>@Html.ActionLink("Browse Products", "Index", "Products", null, new { @class = "btn btn-lg btn-success" })</p>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <h2>Gaming PCs</h2>
+        <p>The graphics card is the most important component in a gaming PC as it has to render the graphics of your favourite games so that the on-screen action looks good, is fast, fluid and smooth. The number one choice for most gamers is an NVIDIA GeForce, but just what is it that makes these cards so special?</p>
+    </div>
+    <div class="col-lg-4">
+        <h2>Gaming Monitors</h2>
+        <p>Often overlooked when buying a new gaming PC, the monitor is the only component that you interact with continuously, so it really is worth buying something good for your eyes to look at. There are many factors to consider such as resolution, size and refresh rate. Some monitors also include G-Sync technology that reduces tearing and stuttering in games, making for smoother gameplay.</p>
+    </div>
+    <div class="col-lg-4">
+        <h2>Virtual Reality Ready</h2>
+        <p>Take the next stage in immersion, playing games with a virtual reality headset. 3XS virtual reality PCs feature powerful NVIDIA GeForce GTX graphics technology, ensuring a smooth and responsive experience.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <h2>Choosing the right PC</h2>
+        <p>We produce a huge range of PCs at a variety of price points, each optimised for different games and resolutions. This guide explains what sort of PC you’ll need to play the most popular games, allowing you to make an informed decision and get the best gaming experience.</p>
+    </div>
+    <div class="col-lg-4">
+        <h2>The Best Gaming CPU</h2>
+        <p>Although the graphics card is the most important component in a gaming system, choosing the right CPU for your gaming system is still important as it make a difference in some games. Choosing a more capable CPU will also enable you to do more with your PC, such as creating great videos.</p>
+    </div>
+    <div class="col-lg-4">
+        <h2>Storage Guide</h2>
+        <p>Games are taking up more storage space every year, so it's important to select the optimum storage configuration for your gaming PC. This guide will walk you through the pros and cons of the most common type of storage device. Choosing a faster storage device will not only make Windows boot faster, but will makes games load quicker, getting you into the action sooner.</p>
+    </div>
+</div>
