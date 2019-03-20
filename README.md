@@ -9,10 +9,10 @@ FF is now building a new online store. You are one of the developers in the deve
 ### Work Item #1
 As a store owner, when a customer purchases the component(s) or the kit(s), the system must do the following.
 
-●	Component: the system must adjust the stock quantity of component and also adjust the stock quantities of the kits if the component is used in the kit.
-●	Kit: the system must adjust the stock quantity of the Kit as well as the stock quantities of the components which the kit is made up of.
+- Component: the system must adjust the stock quantity of component and also adjust the stock quantities of the kits if the component is used in the kit.
+- Kit: the system must adjust the stock quantity of the Kit as well as the stock quantities of the components which the kit is made up of.
 
-Note: there is an extension method of the Component class, called AdjustStockQuantities, you may want to extend it.
+Note: there is an extension method of the Component class, called AdjustStockQuantities.
 
 ### Work Item #2
 As a store owner, on the component details page. When the customer clicks on the “Buy button” or press “enter key” after entering the quantity, instead of reloading the whole page, we want to refresh only the updated stock quantity and success message.
